@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<style>
+			header {
+				color: black;
+				font-weight: 900;
+				font-size: larger;
+			}
+		</style>
+
+		<title>Technical Documentation Page</title>
+	</head>
+
+	<body>
+		<nav id="navbar">
+			<header>CSS Documentation</header>
+			<ul>
+				<li>
+					<a href="" class="nav-link"></a>
+				</li>
+				<li>
+					<a href="" class="nav-link"></a>
+				</li>
+				<li>
+					<a href="" class="nav-link"></a>
+				</li>
+				<li>
+					<a href="" class="nav-link"></a>
+				</li>
+				<li>
+					<a href="" class="nav-link"></a>
+				</li>
+
+			</ul>
+		</nav>
+
+		<main id="main-doc">
+			<section class="main-section" id="Python">
+				<header id="introduction">
+					Python
+				</header>
+				<p>Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a
+					simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing,
+					together with its interpreted nature, make it an ideal language for scripting and rapid application
+					development in many areas on most platforms.
+				</p>
+				<p>The Python interpreter and the extensive standard library are freely available in source or binary form for
+					all major platforms from</p>
+				<ul>
+					<li>the Python web site</li>
+					<li><a href="https://www.python.org/"> Python.org</a></li>
+					<li>may be freely distributed</li>
+				</ul>
+				<p>The same site also contains distributions of and pointers to many free third party Python modules, programs
+					and tools, and additional documentation.</p>
+			</section>
+			<section class="main-section" id="Invoking_the_Interpreter">
+
+				<header id="already-know">
+					Invoking the Interpreter
+				</header>
+				<p>The Python interpreter is usually installed as /usr/local/bin/python3.11 on those machines where it is
+					available; putting /usr/local/bin in your Unix shell’s search path makes it possible to start it by typing the
+					command:</p>
+				<code>python3.11</code>
+				<p>to the shell. 1 Since the choice of the directory where the interpreter lives is an installation option,
+					other places are possible; check with your local Python guru or system administrator. (E.g., /usr/local/python
+					is a popular alternative location.)</p>
+				<p>On Windows machines where you have installed Python from the Microsoft Store, the python3.11 command will be
+					available. If you have the py.exe launcher installed, you can use the py command. See Excursus: Setting
+					environment variables for other ways to launch Python.
+				</p>
+			</section>
+			<section class="main-section" id="Interactive_Mode">
+				<header id="comparation">
+					Interactive Mode
+				</header>
+				<p>When commands are read from a tty, the interpreter is said to be in interactive mode. In this mode it prompts
+					for the next command with the primary prompt, usually three greater-than signs (>>>); for continuation lines
+					it prompts with the secondary prompt, by default three dots (...). The interpreter prints a welcome message
+					stating its version number and a copyright notice before printing the first prompt:
+
+				</p>
+				<code>
+					python3.11
+					Python 3.11 (default, April 4 2021, 09:25:04)
+					[GCC 10.2.0] on linux
+					Type "help", "copyright", "credits" or "license" for more information.
+					>>>					
+				</code>
+				<p>Continuation lines are needed when entering a multi-line construct. As an example, take a look at this if
+					statement:</p>
+				<code>
+						the_world_is_flat = True
+
+						if the_world_is_flat:
+						
+								print("Be careful not to fall off!")
+						
+						
+						Be careful not to fall off!
+						
+					</code>
+			</section>
+			<section class="main-section" id="hello_world">
+				<header id="hello-world">
+					Hello world
+				</header>
+			</section>
+			<section class="main-section" id="variables">
+				<header id="variables">
+					Variables
+				</header>
+			</section>
+		</main>
+	</body>
+
+</html>
